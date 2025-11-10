@@ -11,7 +11,6 @@ FONT_CANDIDATES = [
     Path("fonts/NotoSansCJKsc-Regular.otf"),
     Path("fonts/SourceHanSansCN-Normal.otf"),
 ]
-# 
 
 def register_font(pdf: FPDF) -> str | None:
     for font_path in FONT_CANDIDATES:
