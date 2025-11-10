@@ -8,12 +8,12 @@ on:
 
 env:
   REGISTRY: registry.cn-hangzhou.aliyuncs.com
-  NAMESPACE: ${{ vars.ACR_NAMESPACE }}
-  REPOSITORY: ${{ vars.ACR_REPOSITORY }}
+  NAMESPACE: chewin_space
+  REPOSITORY: ai_travel_planner
 
 jobs:
   docker:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestai_travel_planner
     steps:
       - uses: actions/checkout@v4
 
