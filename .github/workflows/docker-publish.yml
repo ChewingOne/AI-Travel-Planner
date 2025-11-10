@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: registry.cn-hangzhou.aliyuncs.com
+  REGISTRY: crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com
   NAMESPACE: ${{ vars.ACR_NAMESPACE }}
   REPOSITORY: ${{ vars.ACR_REPOSITORY }}
 
