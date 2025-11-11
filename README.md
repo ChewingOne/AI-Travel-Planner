@@ -1,6 +1,6 @@
-镜像拉取：docker pull crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com/chewin_space/ai_travel_planner
-镜像运行：docker run -d -p 8000:8000 -e ENVIRONMENT=production -e SECRET_KEY=change-me -e DATABASE_URL=sqlite+aiosqlite:///./travel_planner.db -e LLM_PROVIDER=dashscope -e LLM_MODEL=qwen-turbo -e LLM_API_KEY=千问key -e AMAP_API_KEY=高德地图key crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com/chewin_space/ai_travel_planner:latest
-镜像运行（mock）:docker run -d -p 8000:8000 -e ENVIRONMENT=production -e SECRET_KEY=change-me -e DATABASE_URL=sqlite+aiosqlite:///./travel_planner.db -e LLM_PROVIDER=mock crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com/chewin_space/ai_travel_planner:latest
+- 镜像拉取：docker pull crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com/chewin_space/ai_travel_planner
+- 镜像运行：docker run -d -p 8000:8000 -e ENVIRONMENT=production -e SECRET_KEY=change-me -e DATABASE_URL=sqlite+aiosqlite:///./travel_planner.db -e LLM_PROVIDER=dashscope -e LLM_MODEL=qwen-turbo -e LLM_API_KEY=千问key -e AMAP_API_KEY=高德地图key crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com/chewin_space/ai_travel_planner:latest
+- 镜像运行（mock）:docker run -d -p 8000:8000 -e ENVIRONMENT=production -e SECRET_KEY=change-me -e DATABASE_URL=sqlite+aiosqlite:///./travel_planner.db -e LLM_PROVIDER=mock crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com/chewin_space/ai_travel_planner:latest
 
 # AI Travel Planner （AI 智能旅行规划系统）
 
