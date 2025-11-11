@@ -1,3 +1,7 @@
+镜像拉取：docker pull crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com/chewin_space/ai_travel_planner
+镜像运行：docker run -d -p 8000:8000 -e ENVIRONMENT=production -e SECRET_KEY=change-me -e DATABASE_URL=sqlite+aiosqlite:///./travel_planner.db -e LLM_PROVIDER=dashscope -e LLM_MODEL=qwen-turbo -e LLM_API_KEY=千问key -e AMAP_API_KEY=高德地图key crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com/chewin_space/ai_travel_planner:latest
+镜像运行（mock）:docker run -d -p 8000:8000 -e ENVIRONMENT=production -e SECRET_KEY=change-me -e DATABASE_URL=sqlite+aiosqlite:///./travel_planner.db -e LLM_PROVIDER=mock crpi-60w9xo9hiw6q33vp.cn-hangzhou.personal.cr.aliyuncs.com/chewin_space/ai_travel_planner:latest
+
 # AI Travel Planner （AI 智能旅行规划系统）
 
 借助语音输入与大语言模型自动生成行程计划、预算建议，并支持多终端同步管理旅行数据。本项目使用 Python（FastAPI）构建后端，同时提供内置前端界面，满足课程关于 AI 行程规划、费用管理、用户登录、语音功能、地图展示、Docker 发布以及 PDF 提交的要求。
